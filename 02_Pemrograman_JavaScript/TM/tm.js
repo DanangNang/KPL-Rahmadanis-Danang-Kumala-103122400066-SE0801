@@ -16,5 +16,4 @@ function fizzBuzz(arr) {
     }
     return hasil.join(" ");
 }
-
 module.exports = fizzBuzz;
