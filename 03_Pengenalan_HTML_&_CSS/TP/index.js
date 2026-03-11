@@ -9,9 +9,7 @@ function countLetters() {
     let totalCount = text.length;
     let upperCount = 0;
     let lowerCount = 0;
-
 }
-
 textInput.addEventListener("input", countLetters);
 
 function toUpper(){
