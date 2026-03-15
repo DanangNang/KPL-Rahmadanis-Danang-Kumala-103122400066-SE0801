@@ -1,7 +1,7 @@
 let textInput = document.getElementById("textInput");
-let total = document.getElementById("total");
-let upper = document.getElementById("upper");
-let lower = document.getElementById("lower");
+let total = document.getElementById("Total");
+let upper = document.getElementById("Upper");
+let lower = document.getElementById("Lower");
 
 function countLetters() {
     let text = textInput.value;
@@ -9,6 +9,19 @@ function countLetters() {
     let totalCount = text.length;
     let upperCount = 0;
     let lowerCount = 0;
+
+    for (let i = 0; i < text.length; i++) {
+        let char = text[i];
+        if (char >= 'A' && char <= 'Z') {
+            upperCount++;
+        }
+        if (char >= 'a' && char <= 'z') {
+            lowerCount++;
+        }
+    }
+    total.textContent = totalCount;
+    upper.textContent = upperCount;
+    lower.textContent = lowerCount;
 }
 textInput.addEventListener("input", countLetters);
 
