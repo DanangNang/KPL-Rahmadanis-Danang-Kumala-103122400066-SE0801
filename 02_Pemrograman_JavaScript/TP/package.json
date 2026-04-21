@@ -1,0 +1,12 @@
+{
+  "name": "02_pemrograman_javascript",
+  "version": "1.0.0",
+  "description": "02_JavaScript",
+  "license": "ISC",
+  "author": "Rahmadanis Danang Kumala",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

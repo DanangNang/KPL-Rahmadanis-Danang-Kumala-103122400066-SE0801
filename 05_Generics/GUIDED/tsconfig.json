@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+  "checkJs" : true,     //periksa berkas JS
+  "allowJs" : true,     //izinkan berkas JS 
+  "strict": true,       //buat berkas JS patuh aturan JS
+  "noEmit": true        //pastikan tidak ada berkas JS yang dibuat
+  },
+  "include": ["./**/*"]
+}
